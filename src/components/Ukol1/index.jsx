@@ -10,8 +10,8 @@ Poznámka: Nemáte jak prakticky ověřit, že se to zobrazí při každém vykr
 
 export const Ukol1 = () => {
   useEffect(() => {
-    // Zde napište svůj kód...
-  }, []);
+    console.log('jsem tady') // vypíše do konzole při každém renderu
+  }); // druhý parametr odstraněn
 
   return (
     <>
